@@ -1,15 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+  font-family: 'GeForce Bold Alt';
+  position: relative;
+}
+
+a, li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#nav_1 {
+  display: flex;
+  background-color: #fff;
+  flex-basis: 100%;
+  height: 40px;
+}
+
+#nav_2 {
+  z-index: 10;
+  width: 100%;
+}
+
+#list-1 h1 {
+  font-size: 34px;
+  margin-left: 25%;
+  padding-right: 25px;
+  align-self: center;
+}
+
+ul#list-1{
+  display: flex;
+  height: 75px;
+  width: 100%;
+  background-color: #000;
+  list-style-type: none;
+}
+
+#list-1 li {
+  font-family: "GeForce Light Alt";
+  color: #d3d3d3;
+  padding: 26px 20px 0 20px;
+  font-size: 17px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.top-area {
+  width: 100%;
+  display: flex;
+}
+
 .img_1{
-  visibility: visible;
+  background: url("../images/nvidia-frames-win-games.jpg") no-repeat center center/contain;
+  height: 650px;
+  width: 100%;
+  position: relative;
+  margin-left: 30%;
 }
-.img_2{
-  visibility: hidden;
+
+a.join{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  background-color: #76b900;
+  /* border: none; */
+  font-size: 19px; 
+  padding: 10px 15px;
 }
-.img_3{
-  visibility: hidden;
+
+.middle-area {
+  display: flex;
+  width: 80%;
+  height: 500px;
+  margin-top: 100px;
+  justify-content: center;
+  margin-left: 12%;
 }
-.img_4{
-  visibility: hidden;
+
+.middle {
+  margin-left: 50px;
+  width: 20%;
 }
-.img_5{
-  visibility: hidden;
+
+.middle h2 {
+  font-size: 30px;
+  color: #76b900;
+}
+
+img {
+  width: 450px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+#box-1 {
+}
+
+#box-2 {
+
+}
+#box-3{
+
+}
+.bottom-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 7%;
+}
+
+.base {
+  width: 18.5%;
+  height: 500px;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+.base h3 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.base li {
+  padding-top: 15px;
+  color: #76b900;
+  font-size: 16px;
+}
+
+#main-footer {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.learn {
+  background-color: #76b900;
+  /* border: none; */
+  font-size: 19px; 
+  padding: 10px 15px;
 }
