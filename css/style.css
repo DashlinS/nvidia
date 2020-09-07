@@ -216,39 +216,3 @@ i {
   margin-top: 20px;
 }
 
-.select {
-  /* Vendor prefixes - select arrow */
-
-  -webkit-appearance: none; 
-  /* Chrome/safari */
-  -moz-appearance: none; 
-  /* Mozilla firefox */
-  -o-appearance: none; 
-  /* Opera */
-  -ms-appearance: none; 
-  /* Microsoft Internet explorer */
-  appearance: none;
-
-  /* margin: 30px 0; */
-  padding: 10px;
-  background: transparent;
-  border: none ;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #999;
-  font-size: 16px;
-  width: 115px;
-  margin-top: -8%;
-}
-
-.select:focus,
-.select:hover {
-  box-shadow: none!important;
-  outline: none;
-  color: #fff;
-}
-
-.select option {
-  background-color: #fff;
-  color: #FFF;
-
-}
