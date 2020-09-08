@@ -1,7 +1,7 @@
 # &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nvidia.com 
 
 <p align="center">
-  The challenge was to the best of my current ability, using Flexbox, to recreate the website www.nvidia.com/en-us/geforce/ ! I recently had done a very much needed upgrade to my computer, and wanted to show my flexbox capabilities using this site! 
+  The challenge was to the best of my current ability, using Flexbox, to recreate the website www.nvidia.com/en-us/geforce/ ! I recently had done a very needed upgrade to my computer, and thought this would be a cool way to show my flexbox capabilities using this site! 
 </p>
 &emsp;
 <p align="center">
