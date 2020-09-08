@@ -13,6 +13,8 @@
 **Languages used:** Html and CSS
 
 ### Html
+With the html, I worked with more lists and links. I did not go with `button element`, but styled and customized the buttons. Organized and neat, I prefer to keep my Html this way. Personally, I need to work on class and id names for specificity. 
+
 
 ### CSS
 
