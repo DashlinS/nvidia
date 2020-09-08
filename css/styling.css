@@ -9,3 +9,7 @@
 #list-1 li:hover {
   color: #76b900;
 }
+
+.icon-area i:hover {
+  color: #777;
+}
