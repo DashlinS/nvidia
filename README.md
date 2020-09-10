@@ -23,6 +23,10 @@ For this project, I went with `Flexbox` and learned a lot. It was fun to use and
 
 I added styling and effects for the navigation bar, buttons and the link icons. I added the GeForce Font style to make the site look like its original. 
 
+<p align="center">
+<img src="https://github.com/DashlinS/Nvidia/blob/master/images/github/nvidia-bottom.jpg" width="900">
+</p>
+
 # What I Learned
 
 I currently am learning on trimming my lines of code and flexbox made it easier to do so. 
