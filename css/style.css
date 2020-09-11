@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 body {
@@ -10,10 +13,9 @@ body {
   color: #fff;
 }
 
-a, li {
-  color: inherit;
-  text-decoration: none;
-  list-style-type: none;
+.nav-wrapper {
+  height: 45px;
+  width: 100%;
 }
 
 /* Nav-bars */
@@ -21,9 +23,11 @@ a, li {
   display: flex;
   background-color: #fff;
   height: 45px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 10;
   width: 100%;
-  
+  transition: 0.3s;
 }
 
 #nav_1 img {
@@ -37,7 +41,11 @@ a, li {
 #nav_2 {
   width: 100%;
   font-family: "GeForce Bold Alt";
+  position: fixed;
+  z-index: 10;
+  transition: 0.3s;
 }
+
 /* NAV LIST ITEMS */
 ul#list-1 {
   display: flex;
@@ -134,7 +142,7 @@ ul#list-1 {
   color: #fff;
   font-size: 1.02rem;
   margin-bottom: 40px;
-  width: 120%;
+  word-wrap: break-word;
   line-height: 1.6rem;
 }
 

@@ -1,18 +1,22 @@
 /* BUTTON FORMAT 1*/
 .learn-more {
+  display: inline-block;
   background-color: #76b900;
   font-size: 19px; 
   padding: 10px 15px;
+  
 }
 
 /* BUTTON FORMAT 2*/
 .join {
+  display: inline-block;
   position: absolute;
   top: 53%;
   left: 5%;
   background-color: #76b900;
   font-size: 20px; 
   padding: 10px 15px;
+  
 }
 .join:hover {
   background-color: #89cc16;
