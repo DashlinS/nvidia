@@ -55,8 +55,8 @@ ul#list-1 {
 #list-1 li {
   font-family: Arial, Helvetica, sans-serif;
   color: #888;
-  padding: 30px 20px 0 20px;
-  font-size: 14px;
+  padding: 25px 30px 0px 0px;
+    font-size: .95rem;
 }
 
 #list-1 h2 {
@@ -78,7 +78,7 @@ ul#list-1 {
   background: url("../images/nvidia-frames-win-games.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 650px;
   width: 100%;
   position: relative;
@@ -259,7 +259,7 @@ ul#list-1 {
 @media only screen and (max-width: 767px){
   #nav_1 img {
     margin-left: 0;
-    transition: linear 0.2s;
+    transition: linear 0.5s;
   }
   #nav_2 ul li, .base-image{
     display: none;
@@ -267,7 +267,7 @@ ul#list-1 {
   #list-1 h2 {
     margin-left: 20px;
     font-size: 1.7rem;
-    transition: linear 0.2s;
+    transition: linear 0.5s;
   }
   ul#list-1 {
     height: 50px;
@@ -312,13 +312,11 @@ ul#list-1 {
     margin-bottom: 1rem;
     text-align: left;
   }
-
   .learn-more{
     font-size: .8rem;
     margin-bottom: 5px;
     margin-bottom: 55px;
   }
-
   .base#products, .base#community {
     margin-bottom: 20px;
   }
@@ -338,7 +336,6 @@ ul#list-1 {
     align-self: center;
     margin-bottom: 30px;
   }
-  
   .subscribe i{
     align-self: center;
     margin: 0;
@@ -367,7 +364,7 @@ ul#list-1 {
 @media (min-width: 768px) and (max-width: 915px){
   #nav_1 img {
     margin-left: 20px;
-    transition: linear 0.2s;
+    transition: linear 0.5s;
   }
   #nav_2 ul li, .base-image {
     display: none;
@@ -375,7 +372,7 @@ ul#list-1 {
   #list-1 h2 {
     margin-left: 40px;
     font-size: 1.7rem;
-    transition: linear 0.2s;
+    transition: linear 0.5s;
   }
   ul#list-1 {
     height: 50px;
@@ -421,13 +418,11 @@ ul#list-1 {
     margin-bottom: 1.2rem;
     text-align: left;
   }
-
   .learn-more{
     font-size: 1rem;
     margin-bottom: 5px;
     margin-bottom: 55px;
   }
-
   .base#products, .base#community {
     margin-bottom: 20px;
   }
@@ -455,7 +450,6 @@ ul#list-1 {
     align-self: center;
     margin-bottom: 30px;
   }
-  
   .subscribe i{
     align-self: center;
     margin: 0;
@@ -487,12 +481,12 @@ ul#list-1 {
   }
    #nav_1 img {
     margin-left: 20px;
-    transition: linear 0.2s;
+    transition: linear 0.5s;
   }
   #list-1 h2 {
     margin-left: 40px;
     font-size: 1.7rem;
-    transition: linear 0.2s;
+    transition: linear 0.5s;
   }
   ul#list-1 {
     height: 50px;
@@ -530,7 +524,6 @@ ul#list-1 {
   .middle { 
     max-width: 100%;
     padding: 0 15px;
-    
   }
   .middle h2 {
     font-size: 1.7rem;
@@ -541,14 +534,12 @@ ul#list-1 {
     margin-bottom: 1.2rem;
     text-align: left;
   }
-
   .learn-more{
     font-size: 1rem;
     margin-bottom: 5px;
     margin-bottom: 55px;
     display: inline-flex;
   }
-
   .base#products, .base#community {
     margin-bottom: 20px;
   }
@@ -608,11 +599,11 @@ ul#list-1 {
   }
   #nav_2 ul li {
     padding-top: 25px;
-    font-size: .95rem;
+    font-size: .8rem;
   }
    #nav_1 img {
     margin-left: 20px;
-    transition: linear 0.2s;
+    transition: linear 0.5s;
   }
   #list-1 h2 {
     margin-left: 40px;
@@ -667,13 +658,53 @@ ul#list-1 {
   }
   .icon-area li{
   align-self: center;
-}
+  }
   #main-footer {
     padding: 0 0 0 20px;
     margin: 0;
   }
 }
 @media (min-width: 1254px) and (max-width: 1350px) {
-
+  #nav_2 ul li {
+    padding: 25px 30px 0px 0px;
+    font-size: .8rem;
+  }
+   #nav_1 img {
+    transition: linear 0.1s;
+  }
+  #list-1 h2 {
+    transition: linear 0.5s;
+  }
+  ul#list-1 {
+    height: 65px;
+  } 
+  .img_1 {
+    width: 100%;
+    background-size: cover;
+  }
+  .base-image img {
+    width: 100%;
+    height: 100px;
+    margin-left: 0px;
+  }
+  .base {
+    min-width: 350px;
+  }
 }
-
+@media (min-width: 1351px) and (max-width: 1550px) {
+  #nav_2 ul li {
+    padding: 25px 30px 0px 0px;
+    font-size: .95rem;
+  }
+ .base-image img {
+    width: 100%;
+    height: 100px;
+    margin-left: 0px;
+  }
+}
+  @media (min-width: 1551px) and (max-width: 1744px){
+    .base-image img {
+      height: 103px;
+      margin-left: 15%;
+  }
+}
