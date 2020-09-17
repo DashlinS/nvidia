@@ -9,6 +9,8 @@
 <img src="https://github.com/DashlinS/Nvidia/blob/master/images/github/preview.jpg" width="900">
 </p>
 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://nvidiawebsite.netlify.app)
+
 ## How Its Made
 
 **Languages used:** Html and CSS
@@ -29,8 +31,11 @@ I added styling and effects for the navigation bar, buttons and the link icons. 
 
 # What I Learned
 
+Flexbox 
+
 Transitions
-Flex 
+
+
 
 ### Select Menu
 Learned about select menus and options. I learned how to style them and create custom select menus. 
