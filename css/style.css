@@ -47,7 +47,7 @@ body {
 /* NAV LIST ITEMS */
 ul#list-1 {
   display: flex;
-  height: 75px;
+  height: 65px;
   width: 100%;
   background-color: #000;
   list-style-type: none;
@@ -410,7 +410,7 @@ ul#list-1 {
   }
   .middle { 
     max-width: 100%;
-    padding: 0 15px;
+    padding: 0 25px;
   }
   .middle h2 {
     font-size: 1.7rem;
@@ -436,7 +436,8 @@ ul#list-1 {
     justify-content: flex-start;
   }
   .base {
-    min-width: 350px;
+    max-width: 100%;
+    min-width: 370px;
   }
   .base h3 {
     text-align: center;
@@ -523,9 +524,13 @@ ul#list-1 {
     text-align: center;
     padding: 0 20px;
   }
+  .middle-wrap img {
+    padding: 0 50px;
+  }
   .middle { 
     max-width: 100%;
     padding: 0 15px;
+    
   }
   .middle h2 {
     font-size: 1.7rem;
@@ -541,6 +546,7 @@ ul#list-1 {
     font-size: 1rem;
     margin-bottom: 5px;
     margin-bottom: 55px;
+    display: inline-flex;
   }
 
   .base#products, .base#community {
@@ -551,7 +557,8 @@ ul#list-1 {
     justify-content: flex-start;
   }
   .base {
-    min-width: 350px;
+    width: 100%;
+    max-width: 100px;
   }
   .base h3 {
     text-align: center;
@@ -595,9 +602,78 @@ ul#list-1 {
     align-items: center;
   }
 }
-@media (min-width: 1025px) and (max-width: 1280px){
-  #nav_1 img {
+@media (min-width: 1025px) and (max-width: 1253px){
+  .drivers, .news, .support, .shop {
+    display: none;
+  }
+  #nav_2 ul li {
+    padding-top: 25px;
+    font-size: .95rem;
+  }
+   #nav_1 img {
+    margin-left: 20px;
     transition: linear 0.2s;
   }
-  
+  #list-1 h2 {
+    margin-left: 40px;
+    font-size: 1.9rem;
+    transition: linear 0.4s;
+  }
+  ul#list-1 {
+    height: 65px;
+  } 
+  .img_1 {
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    margin-left: 0;
+  }
+  .base-image img {
+    width: 100%;
+    height: 80px;
+    margin-left: -5px;
+  }
+  .top-area h1 {
+    font-size: 2.6rem;
+    top: 25%;
+  }
+  .top-area p {
+    font-size: 2rem;
+    top: 35.5%;
+  }
+  .join {
+    position: absolute;
+    top: 45%;
+    font-size: 1rem;
+  }
+  .middle-wrap {
+    text-align: left;
+    justify-content: space-around;
+  }
+  .middle {
+    padding: 0;
+  }
+  .middle p {
+    font-size: 1rem;
+  }
+  .bottom-area-container {
+    justify-content: flex-start;
+  }
+  .base {
+    max-width: 350px;
+  }
+  .sub-container {
+    margin-bottom: 50px;
+  }
+  .icon-area li{
+  align-self: center;
 }
+  #main-footer {
+    padding: 0 0 0 20px;
+    margin: 0;
+  }
+}
+@media (min-width: 1254px) and (max-width: 1350px) {
+
+}
+
