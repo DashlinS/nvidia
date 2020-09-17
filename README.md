@@ -29,7 +29,8 @@ I added styling and effects for the navigation bar, buttons and the link icons. 
 
 # What I Learned
 
-I currently am learning on trimming my lines of code and flexbox made it easier to do so. 
+Transitions
+Flex 
 
 ### Select Menu
 Learned about select menus and options. I learned how to style them and create custom select menus. 
