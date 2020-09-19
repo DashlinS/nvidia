@@ -102,6 +102,7 @@
     align-items: center;
   }
 }
+
 @media (min-width: 768px) and (max-width: 915px){
   #nav_1 img {
     margin-left: 20px;
