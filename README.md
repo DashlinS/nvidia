@@ -31,11 +31,9 @@ I added styling and effects for the navigation bar, buttons and the link icons. 
 
 # What I Learned
 
-Flexbox 
+### Flexbox 
 
-Transitions
-
-
+### Transitions
 
 ### Select Menu
 Learned about select menus and options. I learned how to style them and create custom select menus. 
