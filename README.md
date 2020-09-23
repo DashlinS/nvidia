@@ -43,7 +43,7 @@ Learned about transitions and its different applications. I wanted to apply one 
 Learned about select menus and options. I learned how to style them and create custom select menus. 
 
 ### appearance 
-
+Learned about the appearance property and its different options based on the browser. When it comes to changing or styling specific elements, this property is the way to achieve that. 
 
 ### My Html & CSS projects 
 
