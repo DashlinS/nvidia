@@ -50,3 +50,6 @@ Learned about the appearance property and its different options based on the bro
 * [BBC Website](https://github.com/DashlinS/BBCWebsite)
 * [Biography.com](https://github.com/DashlinS/biography.com)
 * [JWLIA](https://github.com/DashlinS/JWLIA)
+* [Yelp](https://github.com/DashlinS/yelp)
+* [Level Ground](https://github.com/DashlinS/LEVELGROUND)
+* [NVIDIA](https://github.com/DashlinS/nvidia)
