@@ -30,7 +30,6 @@ I added styling and effects for the navigation bar, buttons and the link icons. 
 </p>
 
 # What I Learned
-
 ### Flexbox 
 
 A very educating experience while being easier and more fun to use! I learned a lot when it came to containers and how they work in flex. I did not get to use as many flex methods as I would have liked. But finding out why somethings worked and why others didn't, helped shape my knowledge and the idea of how flexbox works. Definitely a layout model to skill in and master.
